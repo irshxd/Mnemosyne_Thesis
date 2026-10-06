@@ -1,0 +1,12 @@
+torch
+torchvision
+transformers
+accelerate
+pillow
+opencv-python
+requests
+einops
+psutil
+huggingface_hub
+mlx-vlm
+flask

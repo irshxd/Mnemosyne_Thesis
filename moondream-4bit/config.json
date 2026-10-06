@@ -1,0 +1,27 @@
+{
+    "architectures": [
+        "HfMoondream"
+    ],
+    "auto_map": {
+        "AutoConfig": "hf_moondream.HfConfig",
+        "AutoModelForCausalLM": "hf_moondream.HfMoondream"
+    },
+    "config": {},
+    "generation_config": {
+        "_from_model_config": true,
+        "transformers_version": "4.44.0"
+    },
+    "model_type": "moondream1",
+    "quantization": {
+        "group_size": 64,
+        "bits": 4,
+        "mode": "affine"
+    },
+    "quantization_config": {
+        "group_size": 64,
+        "bits": 4,
+        "mode": "affine"
+    },
+    "transformers_version": "4.52.4",
+    "vision_config": {}
+}

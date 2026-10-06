@@ -1,0 +1,22 @@
+# Python
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Large Model Weights (Downloaded via setup_model.py)
+*.safetensors
+*.bin
+*.pt
+*.onnx
+moondream-4bit/model.safetensors
+
+# macOS & IDE
+.DS_Store
+.vscode/
+.idea/
+*.log
